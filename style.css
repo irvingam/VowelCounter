@@ -3,3 +3,26 @@
 *::after {
     box-sizing: border-box;
 }
+
+/* Custom Properites */
+:root {
+    --ff-primary: 'Poppins', sans-serif;
+
+    --fw-normal: 300;
+    --fw-bold: 900;
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.5);
+}
+
+@media (min-width: 800px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
