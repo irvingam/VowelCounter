@@ -15,6 +15,10 @@
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
 
+    --clr-light: #fff;
+    --clr-dark: #000;
+    --clr-accent: #c6a600;
+    
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,0.5);
 }
 
