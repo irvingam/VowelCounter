@@ -91,6 +91,7 @@ h3 {font-size: var(--fs-h3);}
     background: var(--clr-accent);
 }
 
-.bottom {
-
+.vowelstatement {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
 }
