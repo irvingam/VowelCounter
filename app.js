@@ -2,7 +2,7 @@
 const submitBtn = document.getElementById('submit--btn')
 const string = document.getElementById('input--area__string')
 const bottomHTML = document.querySelector('.bottom')
-const vowelstatement = document.getElementsByTagName('p')
+
 
 // Event
 submitBtn.addEventListener('click', () => {
