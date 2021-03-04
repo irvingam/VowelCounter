@@ -1,6 +1,6 @@
 // Selectors
 const submitBtn = document.getElementById('submit--btn')
-const string = document.getElementById('input--area__string')
+const string = document.getElementById('input--string')
 const bottomHTML = document.querySelector('.bottom')
 let statement = document.getElementById('total-string')
 
