@@ -2,6 +2,7 @@
 const submitBtn = document.getElementById('submit--btn')
 const string = document.getElementById('input--area__string')
 const bottomHTML = document.querySelector('.bottom')
+let statement = document.getElementById('total-string')
 
 
 // Event
@@ -14,7 +15,7 @@ submitBtn.addEventListener('click', () => {
     let total = countVowels(string.value)
 
     // Alert to show how many vowels are present
-    alert(`This statement has ${total} vowels`)
+    statement.innerText = `This statement has ${total} vowels`
 
     // Clears text input
     string.value = ""
